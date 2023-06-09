@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="gnomesudoku_103176.png" />
+    <None Remove="ksudoku_103845.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="gnomesudoku_103176.png" />
+    <Resource Include="ksudoku_103845.png" />
+  </ItemGroup>
+
+</Project>
